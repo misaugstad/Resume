@@ -1,0 +1,166 @@
+%resume document class
+\documentclass{res}
+
+\usepackage{hyperref}  % for links to email and LinkedIn
+\usepackage{helvetica} % using helvetica postscript font
+%\usepackage{newcent}   % another postscript font option
+\usepackage{geometry}
+
+% can fiddle with page margins as stuff is added/deleted
+%\setlength{\textheight}{9.7in}
+%\addtolength{\topmargin}{-.7in}
+\newgeometry{left=1.5cm,bottom=1cm,top=1.6cm}
+%\newsectionwidth{20pt}
+\hoffset=0.1in
+
+\newcommand{\vb}{\; | \;}
+
+\begin{document} 
+\name{\LARGE MICHAEL S. SAUGSTAD}
+                                  
+\begin{resume}
+\vspace{-5pt}
+{\large % increasing font size of whole document
+  % link to email, phone number, link to LinkedIn
+  \begin{center}
+    \href{mailto:saugstad@cs.umd.edu}{saugstad@cs.umd.edu} $\vb$
+    (262) 751-5697 $\vb$
+    \href{https://www.linkedin.com/in/michaelsaugstad/}
+         {linkedin.com/in/michaelsaugstad}
+  \end{center}
+
+  \vspace{-2pt}
+  \section{\hspace{0.2in}EDUCATION}
+    \vspace{3pt} % UMaryland PhD
+    {\bf University of Maryland, College Park}, College Park, MD\\
+    \begin{minipage}{5.6in}
+      Ph.D. in Computer Science
+    \end{minipage}
+    \begin{minipage}{2in}
+      Sept 2016 - Present
+    \end{minipage}
+    GPA: 4.0
+
+    \vspace{-5pt} % Vassar College Undergrad
+    {\bf Vassar College}, Poughkeepsie, NY\\
+    \begin{minipage}{5.6in}
+      B.A. in Mathematics, Computer Science
+    \end{minipage}
+    \begin{minipage}{2in}
+      Sept 2012 - May 2016
+    \end{minipage}
+    GPA Overall: 3.79  Majors: 3.86
+
+  \vspace{-1pt}
+  \section{\hspace{0.3in}RELEVANT EXPERIENCE}
+    \vspace{-3pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Computer Science Teaching Assistant}
+      \>Aug 2016 - Present\\
+      University of Maryland Computer Science Department, College Park, MD\\     
+    \end{tabbing}
+    \vspace{-24pt}      % suppress blank line after tabbing
+    \begin{list}{\bf{-}}{}
+      \setlength{\itemsep}{-2pt}
+      \item Mentor and assist 75 students with Java and OOP concepts.
+      \item Evaluate exams and assignments for correctness and programming style.
+    \end{list}
+    
+    \vspace{-12pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Computer Science Research Assistant}
+      \>Jan 2015 - May 2016\\
+      Vassar College Computer Science Department, Poughkeepsie, NY\\     
+    \end{tabbing}
+    \vspace{-24pt}      % suppress blank line after tabbing
+    \begin{list}{\bf{-}}{}
+      \setlength{\itemsep}{-2pt}
+      \item Implemented reactive indoor navigation using dynamical systems
+      \item Integrated existing Python code base into the ROS ecosystem
+      \item Redesigned robot's vision to utilize Kinect depth sensor
+    \end{list}
+
+    \vspace{-12pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Research Intern - Quality of Life Technology NSF REU}
+      \>May 2015 - Aug 2015\\
+      Carnegie Mellon University Robotics Institute, Pittsburgh, PA\\     
+    \end{tabbing}
+    \vspace{-24pt}      % suppress blank line after tabbing
+    \begin{list}{\bf{-}}{}
+      \setlength{\itemsep}{-2pt}
+      \item Developed software to reliably detect people, estimate their
+            position and velocity,\\ and autonomously move in socially
+            acceptable ways alongside them
+      \item Wrote a draft of a conference paper (not published)
+      \item Created and presented a poster: ``Smooth Side By Side Navigation for
+            Escort Robot"
+    \end{list}
+
+    \vspace{-12pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Computer Science Teaching Assistant}
+      \>Sept 2013 - Dec 2014\\
+      Vassar College Computer Science Department, Poughkeepsie, NY\\     
+    \end{tabbing}
+    \vspace{-24pt}      % suppress blank line after tabbing
+    \begin{list}{\bf{-}}{}
+      \setlength{\itemsep}{-2pt}
+      \item Assisted 30 students in beginner to intermediate courses in Java and
+            Scheme
+    \end{list}
+
+    \vspace{-12pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Programming Instructor}
+      \>June 2014 - Aug 2014\\
+      iD Tech Camps at MIT, Boston, MA\\     
+    \end{tabbing}
+    \vspace{-24pt}      % suppress blank line after tabbing
+    \begin{list}{\bf{-}}{}
+      \setlength{\itemsep}{-2pt}
+      \item Taught courses in game design and Java to 6-13 year olds
+      \item Prepared daily lesson plans and taught classes of 4-8 students
+    \end{list}
+  
+  \vspace{-1pt}
+  \section{\hspace{0.2in}COMPUTER SKILLS}
+    \vspace{3pt}
+      Proficient: Python, Java, R, C++, LaTeX, ROS, Ubuntu, Windows\\
+      Familiar: C/UPC, Scheme, Assembly, Haskell, Occam-Pi, Prolog\\
+
+  \vspace{-16pt}
+  \section{\hspace{0.2in}AWARDS AND HONORS}
+    \vspace{-3pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Dean's Fellowship}, Department of Computer Science, UMD\>
+          Aug 2016\\
+      {\bf Janet Holdeen-Adams Prize}, Department of Computer Science,
+          Vassar\> May 2016\\
+    \end{tabbing}
+
+  \vspace{-16pt}
+  \section{\hspace{0.2in}ACTIVIES AND LEADERSHIP}
+    \vspace{-3pt}
+    \begin{tabbing}
+      \hspace{5.65in}\=  \kill % sets right column  location
+      {\bf Treasurer}, Mathematics Majors Committee, Vassar College\>
+          Sept 2014 - May 2015\\
+      {\bf Representative}, Board of Elections and Appointments, Vassar College\>
+          Sept 2014 - May 2015\\
+      {\bf Student}, Logic and Formal Epistomology Summer Program, CMU\>
+          May 2014 - June 2014\\
+      {\bf Captain and Treasurer}, Quidditch Team, Vassar College\>
+          Sept 2013 - May 2014\\
+      {\bf Co-founder}, Quidditch Program -- Parks \& Recreation Dept, Waukesha, WI\>
+           June 2013 - Aug 2013\\
+    \end{tabbing}
+} % end large
+\end{resume}
+\end{document}
